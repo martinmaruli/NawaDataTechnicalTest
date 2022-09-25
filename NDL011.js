@@ -4,7 +4,9 @@ let family = prompt("Input the number of families: ");
 let member = prompt(
   "Input the number of members in the family (separated by a space): "
 );
-member = member.split(" ");
+member = member.split(" ").map((str) => {
+  return Number(str);
+});
 if (member.length != family) {
   console.log("Input must be equal with count of family");
 } else {
