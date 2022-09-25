@@ -1,0 +1,23 @@
+{
+  "name": "nawadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "NDL010.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinmaruli/NawaDataTechnicalTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinmaruli/NawaDataTechnicalTest/issues"
+  },
+  "homepage": "https://github.com/martinmaruli/NawaDataTechnicalTest#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
